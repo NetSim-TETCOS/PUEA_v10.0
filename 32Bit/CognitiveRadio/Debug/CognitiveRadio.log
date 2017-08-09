@@ -1,0 +1,32 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  USMAP.c
+  USFrame.c
+  UCD.c
+  SpectrumManager.c
+c:\users\upal\desktop\v10.0.14_x86\puea_x86_v10.0.14\cognitiveradio\spectrummanager.c(325): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\upal\desktop\v10.0.14_x86\puea_x86_v10.0.14\cognitiveradio\spectrummanager.c(330): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  SCH.c
+  PropagationModel.c
+  PacketForward.c
+  OFDMA.c
+  Incumbent.c
+  Fragmentation.c
+  FCH.c
+  DSx.c
+  DSMAP.c
+  DSFrame.c
+  DCD.c
+  802_22.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\UPAL\Desktop\v10.0.14_x86\PUEA_x86_v10.0.14\CognitiveRadio\..\Dll\CognitiveRadio.dll) does not match the Linker's OutputFile property value (C:\Users\UPAL\Desktop\v10.0.14_x86\PUEA_x86_v10.0.14\Dll\libCognitiveRadio.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(CognitiveRadio) does not match the Linker's OutputFile property value (libCognitiveRadio). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+802_22.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  CognitiveRadio.lib(802_22_lib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+802_22.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\CognitiveRadio.lib and object ..\Dll\CognitiveRadio.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+CognitiveRadio.lib(802_22_lib.obj) : warning LNK4099: PDB 'CognitiveRadioLib.pdb' was not found with 'CognitiveRadio.lib(802_22_lib.obj)' or at 'C:\Users\UPAL\Desktop\v10.0.14_x86\PUEA_x86_v10.0.14\Dll\CognitiveRadioLib.pdb'; linking object as if no debug info
+  CognitiveRadio.vcxproj -> C:\Users\UPAL\Desktop\v10.0.14_x86\PUEA_x86_v10.0.14\CognitiveRadio\..\Dll\CognitiveRadio.dll
+  CognitiveRadio.vcxproj -> ..\Dll\CognitiveRadio.pdb (Full PDB)
